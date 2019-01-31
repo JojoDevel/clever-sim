@@ -16,6 +16,7 @@ sudo apt-get -y --quiet --no-install-recommends install \
     python3-dev \
     python3-pip \
     python3-setuptools \
+    ros-$ROS_DISTRO-desktop \
     ros-$ROS_DISTRO-gazebo-ros-pkgs \
     ros-$ROS_DISTRO-mavlink \
     ros-$ROS_DISTRO-mavros \
