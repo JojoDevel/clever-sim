@@ -1,11 +1,11 @@
-# clever-sitl-vagrant
+# clever-sim
 
 Симулятор [Клевера](https://github.com/copterexpress/clever) на базе Vagrant.
 
 ## Требования
 
 Для успешной сборки и запуска требуется [Vagrant](https://www.vagrantup.com/) версии не ниже 2.2.3 и [VirtualBox](https://www.virtualbox.org/)
-версии не ниже 5.2.24. **Внимание!** Работа с Virtualbox 6.0+ пока не поддерживается ввиду проблем с графической подсистемой
+версии не ниже 5.2.24. **Внимание!** Работа с Virtualbox 6.0+ пока не поддерживается из-за проблем с графической подсистемой
 VirtualBox!
 
 ## Запуск
