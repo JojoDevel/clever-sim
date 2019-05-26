@@ -7,7 +7,7 @@ CLEVER_SRC=/home/user/clever
 CATKIN_WS=/home/user/catkin_ws
 
 # Enable ROS environment 
-source /opt/ros/kinetic/setup.bash
+source /opt/ros/melodic/setup.bash
 
 sudo apt-get update
 sudo apt-get install -y --no-install-recommends \
