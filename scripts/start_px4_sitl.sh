@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /home/vagrant/Firmware
+cd /home/user/Firmware
 make posix_sitl_default jmavsim
 

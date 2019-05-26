@@ -3,8 +3,8 @@
 # Stop on errors, display actual commands
 set -ex
 
-CLEVER_SRC=/home/vagrant/clever
-CATKIN_WS=/home/vagrant/catkin_ws
+CLEVER_SRC=/home/user/clever
+CATKIN_WS=/home/user/catkin_ws
 
 # Enable ROS environment 
 source /opt/ros/kinetic/setup.bash

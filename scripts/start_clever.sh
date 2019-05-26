@@ -1,6 +1,6 @@
 #!/bin/sh
 
-source /home/vagrant/catkin_ws/devel/setup.bash
-cd /home/vagrant/catkin_ws
+source /home/user/catkin_ws/devel/setup.bash
+cd /home/user/catkin_ws
 roslaunch clever sitl.launch
 

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-cd /home/vagrant/clever
+cd /home/user/clever
 git pull
 
-cd /home/vagrant/catkin_ws
+cd /home/user/catkin_ws
 . /opt/ros/kinetic/setup.bash
-. /home/vagrant/catkin_ws/devel/setup.bash
+. /home/user/catkin_ws/devel/setup.bash
 catkin_make
 
