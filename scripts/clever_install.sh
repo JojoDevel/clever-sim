@@ -20,7 +20,7 @@ mkdir -p $CATKIN_WS/src
 ln -s $CLEVER_SRC/clever $CATKIN_WS/src/clever
 cd $CATKIN_WS
 rosdep install -y --from-paths src --ignore-src -r
-catkin_make
+catkin build
 
 # A workaround for VL53L1X being a RPi-only package :(
 # TODO: fix Python packages installation (or just don't install them altogether)
